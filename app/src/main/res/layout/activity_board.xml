@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoardActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/write_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="글 제목"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <EditText
+        android:id="@+id/write_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="글 내용"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/write_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:textColor="#ffffff"
+        android:text="사진첨부"/>
+
+    <ImageView
+        android:id="@+id/write_image"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/write_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="글 작성"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>
